@@ -4,10 +4,16 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+import Hello from './hello/Hello';
+import Clock from './clock/clock';
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Hello />
+    <Clock />
   </React.StrictMode>,
+
   document.getElementById('root')
 );
 
