@@ -1,17 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+//import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 import Hello from './hello/Hello';
 import Clock from './clock/clock';
+import Props from './props/Props';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
     <Hello />
     <Clock />
+    <Props attr='Valor do Primeiro Atributo' attr2='Valor do Segundo Atributo'/>
   </React.StrictMode>,
 
   document.getElementById('root')
