@@ -12,7 +12,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Hello />
     <Clock />
-    <Props attr='Valor do Primeiro Atributo' attr2='Valor do Segundo Atributo'/>
+    <Props attr='p' attr2='Valor do Segundo Atributo'/>
   </React.StrictMode>,
 
   document.getElementById('root')
