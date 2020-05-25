@@ -23,7 +23,7 @@ class compProps extends Component {
                 <p>
                     Informação do props: <br />
                     Atributo 1: {attr==='p' ? 'Letra p' : attr } <br />
-                    Atributo 2: {this.props.attr2}
+                    Atributo 2: {attr2}
                 </p>
           </div>;
     }
