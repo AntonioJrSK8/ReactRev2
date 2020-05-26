@@ -1,17 +1,10 @@
 import React, { Component } from 'react';
+import Painel from '../painel/painel';
 
 class compProps extends Component {
 
     constructor(props) {
         super(props);
-        
-        //const { attr, attr2 } = this.props;
-
-        //this.props = {
-        //    attr : 'Value',
-        //    attr2: 'Value 2'
-        //};
-
         this.state = {  }
     }
 
@@ -25,6 +18,7 @@ class compProps extends Component {
                     Atributo 1: {attr==='p' ? 'Letra p' : attr } <br />
                     Atributo 2: {attr2}
                 </p>
+                <Painel headercolor="red" headertext="Identificação" data="school of home"/>
           </div>;
     }
 }
