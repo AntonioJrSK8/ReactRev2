@@ -7,12 +7,14 @@ import * as serviceWorker from './serviceWorker';
 import Hello from './hello/Hello';
 import Clock from './clock/clock';
 import Props from './props/Props';
+import State from './state/state';
 
 ReactDOM.render(
   <React.StrictMode>
     <Hello />
     <Clock />
     <Props attr='p' attr2='Valor do Segundo Atributo'/>
+    <State />
   </React.StrictMode>,
 
   document.getElementById('root')
