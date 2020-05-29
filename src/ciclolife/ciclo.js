@@ -14,13 +14,14 @@ class Ciclolife extends Component {
   }
 
   componentDidMount() {
+    this.time = setInterval(() => {
+                    this.setClock();
+                }, 1000);
 
-    setInterval(() => {
-      this.setClock();
-    }, 1000);
-    
   }
-  componentWillUnmount() {}
+  componentWillUnmount() {
+      clearInterval(this.time);
+  }
 
   setClock(){
       this.setState({
