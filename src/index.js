@@ -9,6 +9,7 @@ import Clock from './clock/clock';
 import Props from './props/Props';
 import State from './state/state';
 import Ciclolife from './ciclolife/ciclo';
+import BtnEvento from './eventos/evento';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -17,6 +18,7 @@ ReactDOM.render(
     <Props attr='p' attr2='Valor do Segundo Atributo'/>
     <State />
     <Ciclolife />
+    <BtnEvento />
   </React.StrictMode>,
 
   document.getElementById('root')
