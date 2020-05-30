@@ -10,6 +10,7 @@ import Props from './props/Props';
 import State from './state/state';
 import Ciclolife from './ciclolife/ciclo';
 import BtnEvento from './eventos/evento';
+import OneWay from './oneway/oneway';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -19,6 +20,7 @@ ReactDOM.render(
     <State />
     <Ciclolife />
     <BtnEvento />
+    <OneWay />
   </React.StrictMode>,
 
   document.getElementById('root')
